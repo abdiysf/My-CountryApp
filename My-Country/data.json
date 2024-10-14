@@ -1,0 +1,213 @@
+[
+    {
+  "somalia": {
+    "states": [
+      {
+        "state": "Banaadir",
+        "Image": "banadir_image",
+        "cities": [
+          {
+            "name": "Mogadishu",
+            "population": 2270000,
+            "image": "https://sonna.so/en/wp-content/uploads/2023/09/Mogadishu.jpg",
+            "location": {
+              "latitude": 2.0469,
+              "longitude": 45.3182
+            }
+          }
+        ]
+      },
+      {
+        "state": "Galmudug",
+        "Image": "galmudug_image",
+        "cities": [
+          {
+            "name": "Dhusa Mareb",
+            "population": 50000,
+            "image": "https://i.pinimg.com/736x/ce/1f/79/ce1f7905176f148afc9ca405cd3197fc.jpg",
+            "location": {
+              "latitude": 5.5353,
+              "longitude": 46.3844
+            }
+          },
+         
+          {
+            "name": "Hobyo",
+            "population": 22500,
+            "image": "https://horseedmedia.net/wp-content/uploads/2022/10/Bosaso-port-city2022.jpg",
+            "location": {
+              "latitude": 5.3505,
+              "longitude": 48.5268
+            }
+          }
+        ]
+      },
+      {
+        "state": "Hirshabelle",
+        "Image": "hirshabelle_image",
+        "cities": [
+          {
+            "name": "Jowhar",
+            "population": 48000,
+            "image": "https://pbs.twimg.com/media/EeF-xSyXoAAnt2D.jpg",
+            "location": {
+              "latitude": 2.7800,
+              "longitude": 45.5000
+            }
+          },
+          {
+            "name": "Beledweyne",
+            "population": 400000,
+            "image": "https://i.pinimg.com/736x/ce/1f/79/ce1f7905176f148afc9ca405cd3197fc.jpg",
+            "location": {
+              "latitude": 4.7357,
+              "longitude": 45.2036
+            }
+          }
+        ]
+      },
+      {
+        "state": "Jubaland",
+        "Image": "jubaLand_image",
+        "cities": [
+          {
+            "name": "Kismayo",
+            "population": 183300,
+            "image": "https://www.mvrsimulation.com/sites/default/files/m-img/s-2021/Kismayo-cityengine-021521-007_0.jpg",
+            "location": {
+              "latitude": -0.3582,
+              "longitude": 42.5454
+            }
+          },
+          {
+            "name": "Afmadow",
+            "population": 50000,
+            "image": "https://horseedmedia.net/wp-content/uploads/2022/10/Bosaso-port-city2022.jpg",
+            "location": {
+              "latitude": -0.5095,
+              "longitude": 42.0795
+            }
+          },
+          {
+            "name": "Bardera",
+            "population": 60000,
+            "image": "https://pbs.twimg.com/media/EeF-xSyXoAAnt2D.jpg",
+            "location": {
+              "latitude": 2.3451,
+              "longitude": 42.2745
+            }
+          }
+        ]
+      },
+      {
+        "state": "Puntland",
+        "Image": "Puntland_image",
+        "cities": [
+          {
+            "name": "Garowe",
+            "population": 57000,
+            "image": "https://i.pinimg.com/736x/ce/1f/79/ce1f7905176f148afc9ca405cd3197fc.jpg",
+            "location": {
+              "latitude": 8.4080,
+              "longitude": 48.4820
+            }
+          },
+          {
+            "name": "Galkayo",
+            "population": 545000,
+            "image": "https://pbs.twimg.com/media/EeF-xSyXoAAnt2D.jpg",
+            "location": {
+              "latitude": 6.7697,
+              "longitude": 47.4308
+            }
+          },
+          {
+            "name": "Bosaso",
+            "population": 164906,
+            "image": "https://horseedmedia.net/wp-content/uploads/2022/10/Bosaso-port-city2022.jpg",
+            "location": {
+              "latitude": 11.2829,
+              "longitude": 49.1816
+            }
+          },
+          {
+            "name": "Qardho",
+            "population": 63000,
+            "image": "https://pbs.twimg.com/media/EeF-xSyXoAAnt2D.jpg",
+            "location": {
+              "latitude": 9.5000,
+              "longitude": 49.0500
+            }
+          }
+        ]
+      },
+      {
+        "state": "South West",
+        "Image": "SouthWest_image",
+        "cities": [
+          {
+            "name": "Baidoa",
+            "population": 150000,
+            "image": "https://i.pinimg.com/736x/ce/1f/79/ce1f7905176f148afc9ca405cd3197fc.jpg",
+            "location": {
+              "latitude": 3.1138,
+              "longitude": 43.6498
+            }
+          },
+          {
+            "name": "Hudur",
+            "population": 77000,
+            "image": "https://pbs.twimg.com/media/EeF-xSyXoAAnt2D.jpg",
+            "location": {
+              "latitude": 4.1833,
+              "longitude": 43.8667
+            }
+          },
+          {
+            "name": "Barawe",
+            "population": 33000,
+            "image": "https://hornexaminer.com/wp-content/uploads/2023/06/IMG_1349.jpeg",
+            "location": {
+              "latitude": 1.1143,
+              "longitude": 44.0292
+            }
+          }
+        ]
+      },
+      {
+        "state": "Somaliland",
+        "Image": "somaliLand_image",
+        "cities": [
+          {
+            "name": "Hargeisa",
+            "population": 1200000,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/HargeisaDrone.jpg",
+            "location": {
+              "latitude": 9.5511,
+              "longitude": 44.0650
+            }
+          },
+          {
+            "name": "Berbera",
+            "population": 242344,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/HargeisaDrone.jpg",
+            "location": {
+              "latitude": 10.4356,
+              "longitude": 45.0161
+            }
+          },
+          {
+            "name": "Burao",
+            "population": 120000,
+            "image": "https://pbs.twimg.com/media/EeF-xSyXoAAnt2D.jpg",
+            "location": {
+              "latitude": 9.5255,
+              "longitude": 45.5333
+            }
+          }
+        ]
+      }
+    ]
+  }
+  }
+]
