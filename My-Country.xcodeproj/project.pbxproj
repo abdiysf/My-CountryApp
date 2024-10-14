@@ -11,6 +11,13 @@
 		533543532CBD84FB008E5CFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543522CBD84FB008E5CFE /* ContentView.swift */; };
 		533543552CBD84FD008E5CFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533543542CBD84FD008E5CFE /* Assets.xcassets */; };
 		533543582CBD84FD008E5CFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533543572CBD84FD008E5CFE /* Preview Assets.xcassets */; };
+		5335435F2CBD857E008E5CFE /* StatesGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5335435E2CBD857E008E5CFE /* StatesGridView.swift */; };
+		533543622CBD85B2008E5CFE /* CityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543612CBD85B2008E5CFE /* CityListView.swift */; };
+		533543652CBD8673008E5CFE /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 533543642CBD8673008E5CFE /* data.json */; };
+		533543672CBD86CC008E5CFE /* SomaliViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543662CBD86CC008E5CFE /* SomaliViewModel.swift */; };
+		533543692CBD86D4008E5CFE /* SomaliaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533543682CBD86D4008E5CFE /* SomaliaData.swift */; };
+		5335436B2CBD86E4008E5CFE /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5335436A2CBD86E4008E5CFE /* Services.swift */; };
+		5335436D2CBD86F0008E5CFE /* StateCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5335436C2CBD86F0008E5CFE /* StateCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		533543522CBD84FB008E5CFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		533543542CBD84FD008E5CFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		533543572CBD84FD008E5CFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5335435E2CBD857E008E5CFE /* StatesGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesGridView.swift; sourceTree = "<group>"; };
+		533543612CBD85B2008E5CFE /* CityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListView.swift; sourceTree = "<group>"; };
+		533543642CBD8673008E5CFE /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		533543662CBD86CC008E5CFE /* SomaliViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomaliViewModel.swift; sourceTree = "<group>"; };
+		533543682CBD86D4008E5CFE /* SomaliaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomaliaData.swift; sourceTree = "<group>"; };
+		5335436A2CBD86E4008E5CFE /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		5335436C2CBD86F0008E5CFE /* StateCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +65,12 @@
 		5335434F2CBD84FB008E5CFE /* My-Country */ = {
 			isa = PBXGroup;
 			children = (
+				5335436F2CBD8724008E5CFE /* View */,
+				5335436E2CBD8707008E5CFE /* Utilities */,
+				533543632CBD865D008E5CFE /* ModelView */,
+				533543602CBD859F008E5CFE /* Screens */,
 				533543502CBD84FB008E5CFE /* My_CountryApp.swift */,
-				533543522CBD84FB008E5CFE /* ContentView.swift */,
+				533543642CBD8673008E5CFE /* data.json */,
 				533543542CBD84FD008E5CFE /* Assets.xcassets */,
 				533543562CBD84FD008E5CFE /* Preview Content */,
 			);
@@ -65,6 +83,41 @@
 				533543572CBD84FD008E5CFE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		533543602CBD859F008E5CFE /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5335435E2CBD857E008E5CFE /* StatesGridView.swift */,
+				533543612CBD85B2008E5CFE /* CityListView.swift */,
+				533543522CBD84FB008E5CFE /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		533543632CBD865D008E5CFE /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				533543682CBD86D4008E5CFE /* SomaliaData.swift */,
+				533543662CBD86CC008E5CFE /* SomaliViewModel.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		5335436E2CBD8707008E5CFE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5335436A2CBD86E4008E5CFE /* Services.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5335436F2CBD8724008E5CFE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5335436C2CBD86F0008E5CFE /* StateCardView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				533543582CBD84FD008E5CFE /* Preview Assets.xcassets in Resources */,
+				533543652CBD8673008E5CFE /* data.json in Resources */,
 				533543552CBD84FD008E5CFE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +191,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				533543672CBD86CC008E5CFE /* SomaliViewModel.swift in Sources */,
 				533543532CBD84FB008E5CFE /* ContentView.swift in Sources */,
+				533543622CBD85B2008E5CFE /* CityListView.swift in Sources */,
+				5335436B2CBD86E4008E5CFE /* Services.swift in Sources */,
+				5335436D2CBD86F0008E5CFE /* StateCardView.swift in Sources */,
 				533543512CBD84FB008E5CFE /* My_CountryApp.swift in Sources */,
+				533543692CBD86D4008E5CFE /* SomaliaData.swift in Sources */,
+				5335435F2CBD857E008E5CFE /* StatesGridView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

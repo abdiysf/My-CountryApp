@@ -8,11 +8,30 @@
 import SwiftUI
 
 struct StatesGridView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+    @ObservedObject var viewModel = SomaliaViewModel()
+    let columns = [GridItem(.flexible()), GridItem(.flexible())] // 2 columns layout
 
-#Preview {
-    StatesGridView()
+    var body: some View {
+        NavigationView {
+            ScrollView {
+                if let states = viewModel.somaliaData?.states {
+                    LazyVGrid(columns: columns, spacing: 20) {
+                        ForEach(states) { state in
+                            NavigationLink(destination: CityListView(state: state)) {
+                                StateCardView(state: state)
+                            }
+                        }
+                    }
+                    .padding()
+                } else {
+                    Text("Loading states of Somalia...")
+                        .font(.caption)
+                }
+            }
+            .navigationTitle("States of Somalia")
+        }
+        .onAppear {
+            viewModel.loadData()
+        }
+    }
 }
